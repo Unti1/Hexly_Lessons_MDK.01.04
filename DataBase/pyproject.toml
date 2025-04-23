@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "database"
+version = "0.1.0"
+description = ""
+authors = ["Until <kostyuchenko.work@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic-settings = "^2.8.1"
+psycopg2 = "^2.9.10"
+asyncpg = "^0.30.0"
+sqlalchemy = "^2.0.40"
+alembic = "^1.15.2"
+pydantic = {extras = ["email"], version = "^2.11.3"}
+faker = "^37.1.0"
+pydantic-extra-types = "^2.10.3"
+phonenumbers = "^9.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
